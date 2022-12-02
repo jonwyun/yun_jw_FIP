@@ -2,33 +2,59 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Web Page</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+
 <link href="css/main.css" rel="stylesheet">
+
+<title>Quantum Books</title>
+
 </head>
 <!-- students must convert divs to semantic tags -->
 <body>
-	<div id="container">
-        
-        <div id="header-con">
-            <div id="main-header" class="grid-con">
-                <div id="header-box1" class="box-color">
-                </div>
-                <div id="main-nav" class="box-color">
-                </div>
-                <div id="header-box2" class="box-color">
-                </div>
+    <h1 class="hidden">Welcome to The Quantum Books</h1>
+    <div id="container">
+        <header id="main-header" class="grid-con">
+            <div class="logo">
+                <a href="index.html">
+                <img src="images/logos-80px.png" alt="Quantum Books" width="50px" height="50px">
+                </a>
             </div>
-        </div> 
+            <nav id="main-nav">
+                <h2 class="hidden">Main Navigation</h2>
+                <ul>
+                    <li><a href="gallery.html">Books</a></li>
+                    <li><a href="#">Bestseller</a></li>
+                    <li><a href="#">Recommendation</a></li>
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </nav>
+            <div id="search">
+                <img src="images/search.png" alt="search" width="35px" height="35px">
+            </div>
+            <div id="login">
+                <img src="images/login.png" alt="search" width="35px" height="35px">
+            </div>
+        </header> 
 
         <main>
-            <div class="grid-con" id="hero">
-                <div id="hero-text" class="box-color">
-                </div>
-                <img src="https://via.placeholder.com/674x582" alt="image" id="hero-image">
-            </div>  
+            <section class="grid-con" id="hero">
+                <h2 class="hidden">main image</h2>
+                <article id="hero-text">
+                    <h3>Welcome to Quantum Books!</h3>
+                    <h4>It’s all about the pure beauty of book itself.</h4>
+                    <p>Have you ever thought about the beauty of the book itself while reading a book? In addition that the beauty of knowledge contained in books can already be found in both book itself and other places, Quantum Books will provide our customers with information to enjoy books as if they were beautiful works of art.</p>
+                    <div id="buttonmore">
+                        <a href="#"><img src="images/button_more.jpg" alt="more"></a>
+                    </div>
+                </article>
+                <img src="images/main_header_unsplash.jpg" alt="image" id="hero-image">
+            </section>  
 
-            <div class="grid-con" id="products">
-                <h2>Blandit At Tuctor</h2>
+            <section class="grid-con" id="products">
+                <h2>Books & Bestseller</h2>
                 <div class="product-box" id="product1">
                     <img src="https://via.placeholder.com/536x242" alt="image">
                 </div>
@@ -38,9 +64,9 @@
                 <div class="product-box" id="product3">
                     <img src="https://via.placeholder.com/536x242" alt="image">
                 </div>
-            </div>
+            </section>
 
-            <h2 id="about-title">Blandit At Tuctor</h2>
+            <h2 id="about-title">Recommendation</h2>
             <div id="about-con">
                 <div class="grid-con" id="about">
                     <div id="about-text" class="box-color">
