@@ -357,16 +357,10 @@ fieldset {
 /* gallery page */
 
 #hero-gallery-con {
-	background-color: #aaaaaa;
-	background: url("https://via.placeholder.com/428x458");
+	background-image: url(../images/m_main_gallery.jpg);
+	margin-top: 0;
+	margin-left: 0;
 	height: 458px;
-}
-
-#hero-gallery-text {
-	grid-column: 1/-1;
-	/* Remove as content will dictate height */
-	height: 350px;
-	margin-top: 20px;
 }
 
 #gallery-controls {
@@ -374,13 +368,13 @@ fieldset {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: 20px;
+	margin-top: 420px;
 }
 
 .dot {
 	background-color: #dddddd;
-	height: 30px;
-	width: 30px;
+	height: 15px;
+	width: 15px;
 	border-radius: 50%;
 	margin: 5px;
   }
@@ -390,12 +384,13 @@ fieldset {
 	grid-column: 1/-1;
 	margin-top: 40px;
 	margin-bottom: 40px;
+	font-size: 45px;
+	font-weight: bold;
 }
 
 .gallery-box {
 	grid-column: 1/-1;
-	background-color: #ddd;
-	/* Remove as content will dictate height */
+	background-color: #1d3557;
 	height: 507px;
 	margin-bottom: 20px;
 }
