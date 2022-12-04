@@ -13,69 +13,117 @@
 </head>
 <!-- students must convert divs to semantic tags -->
 <body>
-	<div id="container">
+	<h1 class="hidden">Welcome to The Quantum Books</h1>
+    <div id="container">
         
         <div id="header-con">
-            <div id="main-header" class="grid-con">
-                <img src="https://via.placeholder.com/186x80" alt="image" id="header-logo">
-                 <div id="mobile-nav">
-                    <span class="burger"></span>
-                    <span class="burger"></span>
-                    <span class="burger"></span>
-                 </div>
-            </div>    
+            <header id="main-header" class="grid-con">
+                <img src="images/logos-80px.png" alt="logo" id="header-logo" width="40px" height="40px">
+                <nav id="mobile-nav">
+                    <img src="images/hamburger-menu-150px.png" alt="logo" id="header-logo" width="40px" height="40px">
+                </nav>
+            </header>    
         </div> 
 
         <main>
-            <div id="hero-con">
-                <div class="grid-con">
-                    <div id="hero-text" class="box-color">
-                    </div>
-                </div>
-            </div>
+            <section>
+                <h2 class="hidden">main image</h2>
+                <img src="images/m_main_header.jpg" alt="image" id="hero-image">
+            </section>  
 
-            <div id="image-slider-con">
-                <h2>Blandit At Tuctor</h2>
-                <img src="https://via.placeholder.com/428x240" alt="image">
+            <section id="image-slider-con">
+                <h2>Books & Bestseller</h2>
+                <img src="images/book_1-1_m.jpg" alt="moorish">
+                <article class="book">
+                    <h3>MOORISH</h3>
+                    <p>This book shows a stunning book cover image as you can see. The book designer uses geometric patterns to illustrate the recipes for food from the mediterranean.</p>
+                </article>
                 <!-- ascii symbols for <> -->
                 <span id="mobile-slider-left">&#60</span>
                 <span id="mobile-slider-right">&#62</span>
-            </div>
+            </section>
 
-            <div id="about-us-con">
-                <h2>Blandit At Tuctor</h2>   
-                    <div id="about-us-text-con">     
-                        <div class="grid-con">
-                            <div id="about-us-text" class="box-color">
+            <section id="recomm-con">
+                <h2>Recommendation</h2>   
+                    <section id="recomm-text-con">     
+                        <article class="grid-con">
+                            <div id="recomm-text">
+                                <h3>Meet the recommendations from our experts</h3>
+                                <p>Are you thinking about where to start? Come and visit the popular recommendations from our expert group as an author, a student, a housewife, and more. Find your favourites and enjoy your precious time! </p>
+                                <br><br>
+                                <p id="buttonmore">
+                                    <a href="#"><img src="images/button_more.jpg" width="186px" height="57px"></a>
+                                </p>
                             </div>
-                        </div>      
-                    </div>  
-                    <div class="grid-con" id="about-us-photos">
-                        <img src="https://via.placeholder.com/350x350" alt="image" class="about-us-photo">
-                        <img src="https://via.placeholder.com/350x350" alt="image" class="about-us-photo">
-                        <img src="https://via.placeholder.com/350x350" alt="image" class="about-us-photo">
-                        <img src="https://via.placeholder.com/350x350" alt="image" class="about-us-photo">
-                    </div>         
-            </div>
+                        </article>      
+                    </section>  
+                    <section class="grid-con" id="recomm-photos">
+                        <img src="images/recommendation_1-1.png" alt="image" class="recomm-photo">
+                        <img src="images/recommendation_1-2_350px.png" alt="image" class="recomm-photo">
+                        <img src="images/recommendation_2-1_350px.png" alt="image" class="recomm-photo">
+                        <img src="images/recommendation_2-2.png" alt="image" class="recomm-photo">
+                    </section>         
+            </section>
 
-            <div id="contact-us-con">
-                <div class="grid-con">
-                    <div id="contact-text" class="box-color">
-                    </div>
-                    <div id="contact-form" class="box-color">
-                    </div>
-                </div>
-            </div>
+            <section id="contact-us-con">
+                <section>
+                    <article id="contact-text">
+                        <h2>Contact Us!</h2>
+                        <p>Please feel free to contact us and get the help you need. Give us a few details and we’ll offer you the best solution.</p>
+                        <p>Connect by phone, chat, email, and more.</p>
+                        <br><br>
+                        <div class="grid-con">
+                            <div class="box box5"><img src="images/chat-solid.svg" width="50px"></div>
+                            <div class="box box6"><p>Chat with Quantom</p></div>
+                            <div class="box box7"><img src="images/email-solid.svg" width="50px"></div>
+                            <div class="box box8"><p>support@quantumbooks.com</p></div>
+                            <div class="box box9"><img src="images/phone-solid.svg" width="50px"></div>
+                            <div class="box box10"><p>519-639-7923</p><p>1-800-639-7923(Toll Free)</p></div>
+                        </div>
+                    </article>
+                    <section class="grid-con" id="contact-form">
+                        <form id="input-form" action="" method="post">                      
+                            <fieldset>
+                              <input placeholder="Your Name" type="text" tabindex="1" required>
+                            </fieldset>
+                            <fieldset>
+                              <input placeholder="Your Email Address" type="email" tabindex="2" required>
+                            </fieldset>
+                            <fieldset>
+                              <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+                            </fieldset>
+                            <fieldset>
+                              <textarea placeholder="Type Your Message Here ..." tabindex="5" required></textarea>
+                            </fieldset>
+                            <fieldset>
+                              <button name="submit" type="submit">Submit</button>
+                            </fieldset>
+                        </form>  
+                    </section>
+                </section>
+            </section>
         </main>
 
-        <div id="footer-con">
-            <div class="grid-con">
-                <div id="footer-box">
+        <footer id="footer-con">
+            <section class="grid-con" id="footer-box">                    
+                <div class="logo">
+                        <a href="index.html">
+                        <img src="images/logos-80px.png" alt="Quantum Books" width="50px" height="50px"> 
+                        </a>
                 </div>
-                <div id="footer-newsletter">
+                <div id="bottom-title">Quantum Books</div>
+            </section>
+                
+            <section class="grid-con" id="m-newsletter">   
+                <h2>Newsletter</h2>
+                <div id="m-input">
+                    <input id="theinput" placeholder="Email Address" type="text" required>
                 </div>
-            </div>
-        </div>
+                <div id="m-button">
+                    <input id="thebutton" value="Sign-up" type="button">
+                </div>
+            </section>
+        </footer>
 
     </div>
 </body>

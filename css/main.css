@@ -299,7 +299,7 @@ you work on and the intended audience */
 	width: 100%;
 	margin: 0 auto;
 	grid-column: 8/-1;
-	background-color: #1d3557;
+	background-color: #457B9D;
 	height: 650px;
 }
 
@@ -403,24 +403,24 @@ footer h2 {
 	margin-top: 30px;
 	padding-top: 0;
 }
+
 .box {
 	padding: 0;
 	text-align: left;
-  }
+}
   
-  .box4 {
+.box4 {
 	grid-column: 1/4;
-  }
+}
   
-  .box5 {
+.box5 {
 	grid-column: 4/5;
-  }
+}
   
-  .box6 {
+.box6 {
 	grid-column: 9/-1;
 	text-align: right;
-
-  }
+}
 
 #theinput {
 	width: 536px;
