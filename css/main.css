@@ -455,23 +455,17 @@ footer h2 {
 	margin-left: 25px;
 }
 
-/* gallery page */
+/* ===== gallery page ===== */
 
-#gallery-hero-con {
-	background-color: #aaaaaa;
-	background: url("https://via.placeholder.com/1920x580");
-	height: 580px;
-}
-
-#gallery-text {
-	grid-column: 1/9;
-	/* Remove as content will dictate height */
-	height: 200px;
-	margin-top: 100px;
+#gallery-image {
+	background-image: url(../images/main_gallery.jpg);
+	margin-top: 0;
+	margin-left: 0;
+	height: 582px;
 }
 
 #gallery-controls {
-	margin-top: 200px;
+	margin-top: 500px;
 	grid-column: 6/8;
 	display: flex;
 	justify-content: center;
@@ -480,8 +474,8 @@ footer h2 {
 
 .dot {
 	background-color: #dddddd;
-	height: 30px;
-	width: 30px;
+	height: 20px;
+	width: 20px;
 	border-radius: 50%;
 	margin: 5px;
   }
@@ -489,12 +483,13 @@ footer h2 {
 #gallery h2 {
 	grid-column: 1/-1;
 	text-align: center;
+	font-size: 55px;
+	font-weight: bold;
   }
 
 .gallery-box {
-	background-color: #ddd;
+	background-color: #1d3557;
 	grid-column: span 4 / span 4;
-	/* Remove as content will dictate height */
 	height: 507px;
 	margin-bottom: 20px;
 }
