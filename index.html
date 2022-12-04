@@ -99,27 +99,87 @@
             </section>
             
             <div class="grid-con" id="contact">
-                <div id="contact-text" class="box-color">
-                </div>
-                <div id="contact-form" class="box-color">
-                </div>
+                <article id="contact-text">
+                    <h2>Contact Us!</h2>
+                    <p>Please feel free to contact us and get the help you need.</p>
+                    <p>Give us a few details and we’ll offer you the best solution.</p>
+                    <p>Connect by phone, chat, email, and more.</p>
+                    <br><br><br>
+                    <div class="contact-icon">
+                        <span class="icon"><img src="images/chat-solid.svg" width="50px"></span>
+                        <span class="contactdevice">Chat with Quantom</span>
+                    </div>
+                    <br>
+                    <div class="contact-icon">
+                        <span class="icon"><img src="images/email-solid.svg" width="50px"></span>
+                        <span class="contactdevice">support@quantumbooks.com</span>
+                    </div>
+                    <br>
+                    <div class="contact-icon">
+                        <span class="icon"><img src="images/phone-solid.svg" width="50px"></span>
+                        <span class="contactdevice">519-639-7923 / 1-800-639-7923(Toll Free)</span>
+                    </div>
+                </article>
+                
+                <section id="contact-form">  
+                    <form id="input-form" action="" method="post">                      
+                      <fieldset>
+                        <input placeholder="Your Name" type="text" tabindex="1" required>
+                      </fieldset>
+                      <fieldset>
+                        <input placeholder="Your Email Address" type="email" tabindex="2" required>
+                      </fieldset>
+                      <fieldset>
+                        <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+                      </fieldset>
+                      <fieldset>
+                        <textarea placeholder="Type Your Message Here ..." tabindex="5" required></textarea>
+                      </fieldset>
+                      <fieldset>
+                        <button name="submit" type="submit">Submit</button>
+                      </fieldset>
+                    </form>    
+                </section>
             </div> 
         </main>
 
-        <div id="footer-con">
+        <footer id="footer-con">
             <div class="grid-con" id="footer">
-                <div id="footer-logo" class="box-color">
+                <div class="logo">
+                    <a href="index.html">
+                    <img src="images/logos-80px.png" alt="Quantum Books" width="50px" height="50px"> 
+                    </a>
                 </div>
-                <div id="footer-nav" class="box-color">
-                </div>
-                <div id="footer-newsletter1" class="box-color">
-                </div>
-                <div id="footer-newsletter2" class="box-color">
-                </div>
-                <div id="footer-social" class="box-color">
-                </div>
+                <div id="bottom-title">Quantum Books</div>
+                <nav id="bottom-nav">
+                    <h2 class="hidden">Bottom Navigation</h2>
+                    <ul>
+                        <li><a href="gallery.html">Books</a></li>
+                        <li><a href="#">Bestseller</a></li>
+                        <li><a href="#">Recommendation</a></li>
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </nav>
             </div>
-        </div>
+            
+            <div class="grid-con">
+                <h2>Newsletter</h2>
+                <div class="box box4">
+                    <input id="theinput" placeholder="Email Address" type="text" required>
+                </div>
+                <div class="box box5">
+                    <input id="thebutton" value="Sign-up" type="button">
+                </div>
+                <section class="box box6">
+                    <h2 class="hidden">Social Links</h2>
+                    <a id="instagram" href="http://www.instagram.com"><img src="images/instagram.png" width="60px" height="60px"></a>
+                    <a id="instagram" href="http://www.facebook.com"><img src="images/facebook.png" width="60px" height="60px"></a>
+                    <a id="instagram" href="http://www.reddit.com"><img src="images/reddit.png" width="60px" height="60px"></a>
+                    <a id="instagram" href="http://www.twitter.com"><img src="images/twitter.png" width="60px" height="60px"></a>
+                </section>
+            </div>   
+        </footer>
 
     </div> 
 </body>
