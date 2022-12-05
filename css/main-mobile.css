@@ -72,8 +72,10 @@ you work on and the intended audience, we may go as low as 320px */
 	padding-bottom: 10px;
 }
 
-#header-logo {
+#main-header img{
 	grid-column: 1/3;
+	width: 40px;
+	height: 40px;
 }
 
 #mobile-nav {
@@ -82,6 +84,11 @@ you work on and the intended audience, we may go as low as 320px */
 	margin-right: 0;
 	margin-left: 40px;
 	margin-top: 5px;
+}
+
+#mobile-nav img {
+	width: 40px;
+	height: 40px;
 }
 
 /* index page */
@@ -171,6 +178,11 @@ you work on and the intended audience, we may go as low as 320px */
 	margin-bottom: 20px;
 }
 
+#buttonmore img {
+	width: 186px;
+	height: 57px;
+}
+
 .recomm-photo {
 	grid-column: 1/-1;
 	display: block;
@@ -188,7 +200,7 @@ you work on and the intended audience, we may go as low as 320px */
 	margin-bottom: 30px;
 }
 
-#contact-text h2 {
+#contact-us-con h2 {
 	font-size: 45px;
 	font-weight: bold;
 	margin-top: 25px;
@@ -211,6 +223,10 @@ you work on and the intended audience, we may go as low as 320px */
   grid-column: 1/1;
 }
 
+.box5 img {
+	width: 50px;
+}
+
 .box6 {
   grid-column: 2/5;
   margin-top: 10px;
@@ -220,6 +236,10 @@ you work on and the intended audience, we may go as low as 320px */
   grid-column: 1/1;
 }
 
+.box7 img {
+	width: 50px;
+}
+
 .box8 {
   grid-column: 2/5;
   margin-top: 10px;
@@ -227,6 +247,10 @@ you work on and the intended audience, we may go as low as 320px */
 
 .box9 {
   grid-column: 1/1;
+}
+
+.box9 img {
+	width: 50px;
 }
 
 .box10 {
@@ -296,14 +320,16 @@ fieldset {
 	margin-top: 40px;
 }
 
-#footer-box .logo{
+#footer-box img{
 	margin-top: 20px;
+	width: 50px;
+	height: 50px;
 }
 
 #bottom-title {
 	grid-column: 2/5;
 	margin-top: 20px;
-	font-size: 40px;
+	font-size: 35px;
 	text-align: left;
 	color: #f1faee;
 }
